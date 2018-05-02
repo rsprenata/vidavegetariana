@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-4.1.1/dist/css/bootstrap.css">
 
     <link href="cover.css" rel="stylesheet">
 
+	<link rel="icon" href="media/favicon.ico">
 
     <title>Vida vegetariana</title>
 	
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbar">
 
   <!-- Pagina 1 -->
-
-  <div class="cor1 d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <div class="cor1 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divInicio">
       <header class="masthead mb-auto fixed-top">
         <div class="inner">
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="#">Início</a>
-            <a class="nav-link" href="#">O que é</a>
-            <a class="nav-link" href="#">Tipos</a>
-            <a class="nav-link" href="#">O que comer</a>
-            <a class="nav-link" href="#">Impacto</a>
+          <nav class="nav nav-masthead justify-content-center navbar" id="navbar">
+            <a class="nav-link active smoothScroll" href="#divInicio">Início</a>
+            <a class="nav-link smoothScroll" href="#divOqueE">O que é</a>
+            <a class="nav-link smoothScroll" href="#divTipos">Tipos</a>
+            <a class="nav-link smoothScroll" href="#divOqueComer">O que comer</a>
+            <a class="nav-link smoothScroll" href="#divImpacto">Impacto</a>
 
           </nav>
         </div>
@@ -39,7 +39,7 @@
         A duração estimada desse conteúdo é de 15 minutos. É constituído por N tópicos, N vídeos, N áudios e um Quiz com N perguntas para avaliar seu aprendizado.. Esteja em um ambiente calmo e tranquilo. Faremos perguntas socioeconômicas. Não coletaremos nenhum dado pessoal.
         .</p>
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Começar</a>
+          <a href="#divOqueE" class="btn btn-lg btn-secondary smoothScroll">Começar</a>
         </p>
       </main>
 
@@ -52,14 +52,14 @@
 
 
     <!-- Pagina 2 -->
-    <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divOqueE">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="cover-heading">O que é vegetarianismo?</h1>
         <p class="lead">É uma dieta alimentar livre de qualquer tipo de carne animal e também pode ser livre de outros alimentos de origem animal.</p>
 
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Próximo</a>
+          <a href="#divTipos" class="btn btn-lg btn-secondary smoothScroll">Próximo</a>
         </p>
       </main>
 
@@ -70,7 +70,7 @@
 
 
      <!-- Pagina 3 -->
-     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column">
+     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divTipos">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="cover-heading">Tipos de vegetarianismo:</h1>
@@ -81,7 +81,7 @@
         <p class="lead">4 - VEGETARIANISMO ESTRITO: Este não consome nenhum produto de origem animal (inclusive produtos como MEL). É muito conhecido como “veganismo”, porém o veganismo é um estilo de vida que procura excluir ao máximo qualquer forma de exploração aos animais, seja na alimentação, vestuário (couros) entre outras coisas. Uma pessoa vegana é vegetariana estrita, porém uma pessoa vegetariana estrita não necessariamente é vegana.</p>
         
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Próximo</a>
+          <a href="#divOqueComer" class="btn btn-lg btn-secondary smoothScroll">Próximo</a>
         </p>
       </main>
 
@@ -91,7 +91,7 @@
     </div>
 
 <!-- Pagina 3 -->
-     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column">
+     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divOqueComer">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="cover-heading">Tipos de vegetarianismo:</h1>
@@ -101,7 +101,7 @@
        </p>
         
         <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary">Próximo</a>
+          <a href="#divImpacto" class="btn btn-lg btn-secondary smoothScroll">Próximo</a>
         </p>
       </main>
 
@@ -111,8 +111,31 @@
     </div>
  
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap-4.1.1/dist/js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+	$("a[href^='#'].smoothScroll").on('click', function(e) {
+
+	   // prevent default anchor click behavior
+	   e.preventDefault();
+
+	   // store hash
+	   var hash = this.hash;
+
+	   // animate
+	   $('html, body').animate({
+	       scrollTop: $(hash).offset().top
+	     }, 300, function(){
+
+	       // when done, add hash to url
+	       // (default click behaviour)
+	       window.location.hash = hash;
+	     });
+
+	});
+	</script>
+
   </body>
 </html>
