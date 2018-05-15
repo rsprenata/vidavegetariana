@@ -18,7 +18,7 @@
   <body data-spy="scroll" data-target="#navbar">
 
   <!-- Pagina 1 -->
-  <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divInicio">
+  <div class="cor2 d-flex w-100 height-100 mx-auto flex-column margem" id="divInicio">
       <header class="masthead mb-auto fixed-top">
         <div class="inner">
           <nav class="nav nav-masthead justify-content-center navbar" id="navbar">
@@ -54,7 +54,7 @@
 
 
 <!-- Pagina 2 -->
-    <div class="cor2 d-flex w-100 h-100 mx-auto flex-column margem" id="divForm">
+    <div class="cor2 d-flex w-100 height-100 mx-auto flex-column margem" id="divForm">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Por favor, preencha alguns dados importantes...</h1>
@@ -136,7 +136,7 @@
 
 
 <!-- Pagina 3 -->
-     <div class="cor2 d-flex w-100 h-100 mx-auto flex-column margem" id="divOqueComer">
+     <div class="cor2 d-flex w-100 height-100 mx-auto flex-column margem" id="divOqueComer">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">O que comer?</h1>
@@ -157,7 +157,7 @@
     </div>
 
 <!-- Receita -->
-    <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divOqueComer">
+    <div class="cor2 d-flex w-100 height-100 mx-auto flex-column" id="divOqueComer">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Receita de Quibe Vegetariano</h1>
@@ -179,7 +179,7 @@
     </div>
 
 <!-- Pagina 5 -->
-     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divImpacto">
+     <div class="cor2 d-flex w-100 height-100 mx-auto flex-column" id="divImpacto">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Impacto</h1>
@@ -203,7 +203,7 @@
     </div>
 
 <!-- Pagina 6 -->
-     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divConclusao">
+     <div class="cor2 d-flex w-100 height-100 mx-auto flex-column" id="divConclusao">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Conclusão</h1>
@@ -229,190 +229,78 @@
     </div>
 
 <!-- Pagina 7 -->
-     <div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divAvaliacao">
+     <div class="cor2 d-flex w-100 height-100 mx-auto flex-column" id="divAvaliacao">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Avaliação</h1>
         <p class="lead">(1/4)<b>Quais alimentos os vegetarianos podem comer?</b></p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Cereais, frutas, legumes e qualquer outro alimento que venha das plantas, além de algas e cogumelos.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Cereais, frutas, legumes e peixes.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Saladas e frutos do mar.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Cereais, frutas, legumes, carne bovina e suína.
-            </label>
-          </div>
-        </p>
-        <p>
-          
-        </p>
-
+        <div class="row col-12 col-md-8" style="margin: auto;">
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP1" onclick="corrigir(1,1)" id="btnP1R1">Cereais, frutas, legumes e qualquer outro alimento que venha das plantas, além de algas e cogumelos.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP1" onclick="corrigir(1,2)" id="btnP1R2">Cereais, frutas, legumes e peixes.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP1" onclick="corrigir(1,3)" id="btnP1R3">Saladas e frutos do mar.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP1" onclick="corrigir(1,4)" id="btnP1R4">Cereais, frutas, legumes, carne bovina e suína.</button>
+	    </div>
         <p class="lead">
           <a href="#divQ2" class="btn btn-lg btn-secondary smoothScroll">Próxima</a>
         </p>
 
       </main>
-
-      <footer class="container mastfoot mt-auto">
-        
-      </footer>
     </div>
 
 <!--pergunta 2 -->
 
-<div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divQ2">
+<div class="cor2 d-flex w-100 height-100 mx-auto flex-column" id="divQ2">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Avaliação</h1>
         <p class="lead"><b>(2/4)Quais alimentos uma pessoa ovolactovegetariana NÃO consome?</b></p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Cereais, frutas, legumes e qualquer outro alimento que venha das plantas, além de algas e cogumelos.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Não consome carne (vermelha, branca, crustáceos, etc).
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Não consome nada de origem animal.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Não consome ovos e leite.
-            </label>
-          </div>
-        </p>
-        
+        <div class="row col-12 col-md-8" style="margin: auto;">
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP2" onclick="corrigir(2,1)" id="btnP2R1">Cereais, frutas, legumes e qualquer outro alimento que venha das plantas, além de algas e cogumelos.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP2" onclick="corrigir(2,2)" id="btnP2R2">Não consome carne (vermelha, branca, crustáceos, etc).</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP2" onclick="corrigir(2,3)" id="btnP2R3">Não consome nada de origem animal.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP2" onclick="corrigir(2,4)" id="btnP2R4">Não consome ovos e leite.</button>
+	    </div>
         <p class="lead">
           <a href="#divQ3" class="btn btn-lg btn-secondary smoothScroll">Próxima</a>
         </p>
 
       </main>
-
-      <footer class="container mastfoot mt-auto">
-        
-      </footer>
     </div>
 
     <!--pergunta 3 -->
 
-<div class="cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divQ3">
+<div class="cor2 d-flex w-100 height-100 mx-auto flex-column" id="divQ3">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Avaliação</h1>
         <p class="lead"><b>(3/4)Segundo este material, o VEGANISMO é:</b></p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Uma dieta alimentar.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Uma religião.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Um estilo de vida que procura excluir ao máximo qualquer forma de exploração aos animais.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Uma dieta para emagrecer.
-            </label>
-          </div>
-        </p>
-        
+        <div class="row col-12 col-md-8" style="margin: auto;">
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP3" onclick="corrigir(3,1)" id="btnP3R1">Uma dieta alimentar.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP3" onclick="corrigir(3,2)" id="btnP3R2">Uma religião.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP3" onclick="corrigir(3,3)" id="btnP3R3">Um estilo de vida que procura excluir ao máximo qualquer forma de exploração aos animais.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP3" onclick="corrigir(3,4)" id="btnP3R4">Uma dieta para emagrecer.</button>
+	    </div>
         <p class="lead">
           <a href="#divQ4" class="btn btn-lg btn-secondary smoothScroll">Próxima</a>
         </p>
 
       </main>
-
-      <footer class="container mastfoot mt-auto">
-        
-      </footer>
     </div>
 
 <!--pergunta 4 -->
 
-<div class="row-fluid cor2 d-flex w-100 h-100 p-3 mx-auto flex-column" id="divQ4">
+<div class="row-fluid cor2 d-flex w-100 height-100 mx-auto flex-column" id="divQ4" style="padding-bottom: 5rem;">
 
       <main role="main" class="container inner cover mt-auto">
         <h1 class="green3" class="cover-heading">Avaliação</h1>
         <p class="lead"><b>(4/4)Sobre PROTEÍNAS, é correto afirmar: (somente uma alternativa)</b></p>
-        <p>
-
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Vegetarianos sempre tem deficiência de proteínas.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Carnes NÃO são únicas fontes de proteínas.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Proteínas são vermes que dão em vegetarianos.
-            </label>
-          </div>
-        </p>
-        <p>
-          <div class="btn-group-toggle" data-toggle="buttons">
-            <label class="btn btn-secondary active">
-              <input type="checkbox" checked autocomplete="off"> Proteínas provêm somente de carne de boi.
-            </label>
-          </div>
-        </p>
-        
+        <div class="row col-12 col-md-8" style="margin: auto;">
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP4" onclick="corrigir(4,1)" id="btnP4R1">Vegetarianos sempre tem deficiência de proteínas.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP4" onclick="corrigir(4,2)" id="btnP4R2">Carnes NÃO são únicas fontes de proteínas.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP4" onclick="corrigir(4,3)" id="btnP4R3">Proteínas são vermes que dão em vegetarianos.</button>
+	        <button type="button" class="btn btn-secondary btn-lg btn-block btnP4" onclick="corrigir(4,4)" id="btnP4R4">Proteínas provêm somente de carne de boi.</button>
+	    </div>
       </main>
-
-      <footer class="container mastfoot mt-auto">
-        
-      </footer>
     </div>
 
 
@@ -444,6 +332,43 @@
 	     });
 
 	});
+
+	var gabarito = [1, 2, 3, 2];
+	function corrigir (pergunta, resposta) {
+		$(".btnP" + pergunta).removeClass("btn-secondary");
+		if (resposta === gabarito[pergunta - 1]) {
+			$("#btnP" + pergunta + "R" + resposta).addClass("btn-success");
+		} else {
+			$("#btnP" + pergunta + "R" + resposta).addClass("btn-danger");
+			$("#btnP" + pergunta + "R" + gabarito[pergunta - 1]).addClass("btn-success");
+		}
+	}
+
+	function Utils() {
+
+	}
+
+	Utils.prototype = {
+	    constructor: Utils,
+	    isElementInView: function (element, fullyInView) {
+	        var pageTop = $(window).scrollTop();
+	        var pageBottom = pageTop + $(window).height();
+	        var elementTop = $(element).offset().top;
+	        var elementBottom = elementTop + $(element).height();
+
+	        if (fullyInView === true) {
+	            return ((pageTop < elementTop) && (pageBottom > elementBottom));
+	        } else {
+	            return ((elementTop <= pageBottom) && (elementBottom >= pageTop));
+	        }
+	    }
+	};
+
+	var Utils = new Utils();
+
+	//https://stackoverflow.com/questions/487073/check-if-element-is-visible-after-scrolling
+
+
 	</script>
 
   </body>
