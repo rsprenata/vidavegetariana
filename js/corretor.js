@@ -1,25 +1,26 @@
 var gabarito = [1, 2, 3, 2];
 var justificativa = [
     ["",
-    "Vegetarianos não comem carne, peixe é carne.",
-    "Frutos do mar também são animais e vegetarianos não comem isso.",
-    "Carnes bovina e suína não fazem parte da alimentação vegetariana."],
+    "<i>Vegetarianos não comem carne, peixe é carne</i>.",
+    "<i>Frutos do mar também são animais e vegetarianos não comem isso</i>.",
+    "<i>Carnes bovina e suína não fazem parte da alimentação vegetariana</i>."],
 
-    ["Ovolactovegetarianos podem consumir esses alimentos.",
+    ["<i>Ovolactovegetarianos podem consumir esses alimentos</i>.",
     "",
-    "Na verdade, ovolactos consomem ovos e leite de origem animal.",
-    "Na verdade, ovolactos consomem ovos e leite de origem animal."],
+    "<i>Na verdade, ovolactos consomem ovos e leite de origem animal</i>.",
+    "<i>Na verdade, ovolactos consomem ovos e leite de origem animal</i>."],
 
-    ["Ele é mais que uma dieta.",
-    "Imagine! hehe, pode parecer, mas não é!",
+    ["<i>Ele é mais que uma dieta</i>.",
+    "<i>Imagine! hehe, pode parecer, mas não é!</i>",
     "",
-    "Não é somente uma dieta."],
+    "<i>Não é somente uma dieta</i>."],
 
-    ["Vegetarianos que se alimentam bem são muito saudáveis.",
+    ["<i>Vegetarianos que se alimentam bem são muito saudáveis</i>.",
     "",
-    "Proteínas não são vermes! Que horror!",
-    "Proteínas também são encontradas em vegetais."]
+    "<i>Proteínas não são vermes! Que horror</i>!",
+    "<i>Proteínas também são encontradas em vegetais</i>."]
 ];
+
 
 function corrigir (pergunta, resposta) {
     $(".btnP" + pergunta).removeClass("btn-secondary");
