@@ -188,3 +188,13 @@ and (min-device-width: 600px)
     height: 100%; !important
   }
  }
+
+ #divInicio {
+    background-image: url('pig.jpg'); 
+    background-size: cover; 
+ }
+
+ .invCor {
+    color: #FFF; 
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+ }

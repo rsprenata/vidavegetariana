@@ -30,8 +30,8 @@
                 </nav>
             </div>
         </header>
-        <main role="main" class="container inner cover mt-auto">
-            <h1 class="green3" class="cover-heading">Como levar uma Vida Vegetariana</h1>
+        <main role="main" class="container inner cover mt-auto invCor">
+            <h1 class="cover-heading">Como levar uma Vida Vegetariana</h1
             <p class="lead"><b>
                 Este material tem a intenção de trazer um conceito básico sobre vegetarianismo.
                 A duração estimada desse conteúdo é de 15 minutos. É constituído por quatro tópicos, tendo um vídeo, um áudio e uma pequena avaliação com quatro perguntas para avaliar seu aprendizado. Esteja em um ambiente calmo e tranquilo.
@@ -40,7 +40,7 @@
                 <a href="#divForm" class="btn btn-lg btn-secondary smoothScroll">Começar</a>
             </p>
         </main>
-        <footer class=" container mastfoot mt-auto">
+        <footer class="container mastfoot mt-auto invCor">
             <div class="inner">
                 <p align="justify-content-center">Feito pelos alunos: Renata Soares, Lucas Praça, Lucas Becher e João Maia do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas da Universidade Federal do Paraná. Disciplina de Ergonomia das Interfaces de Aplicações - 2018 </p>
             </div>
@@ -89,7 +89,7 @@
                 </div>
             </form>
             <p class="lead">
-                <a href="#divOqueE" class="btn btn-lg btn-secondary smoothScroll">Próximo</a>
+                <a href="#divOqueE" class="btn btn-lg btn-secondary smoothScroll disabled" id="btnProxOqueE">Próximo</a>
             </p>
       </main>
     </div>

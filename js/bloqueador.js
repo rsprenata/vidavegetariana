@@ -39,6 +39,7 @@ function bloqueador() {
             $("#divOqueE").show();
             $("#divOqueE").addClass("d-flex");
             $("#aOqueE").removeClass("disabled");
+            $("#btnProxOqueE").removeClass("disabled");
             tela = 2;
         }
         if (tela === 2 && Utils.isElementInView($('#divOqueE'), false)) {
