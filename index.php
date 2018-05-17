@@ -31,11 +31,12 @@
             </div>
         </header>
         <main role="main" class="container inner cover mt-auto invCor">
-            <h1 class="cover-heading">Como levar uma Vida Vegetariana</h1
-            <p class="lead"><b>
+            <h1 class="cover-heading">Como levar uma Vida Vegetariana</h1>
+            <p class="lead"> <b>
                 Este material tem a intenção de trazer um conceito básico sobre vegetarianismo.
                 A duração estimada desse conteúdo é de 15 minutos. É constituído por quatro tópicos, tendo um vídeo, um áudio e uma pequena avaliação com quatro perguntas para avaliar seu aprendizado. Esteja em um ambiente calmo e tranquilo.
             </b></p>
+            <p class="lead"><b>Só é possível acessar o próximo tópico tendo visto o anterior.</b></p>
             <p class="lead">
                 <a href="#divForm" class="btn btn-lg btn-secondary smoothScroll">Começar</a>
             </p>

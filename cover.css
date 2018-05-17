@@ -68,6 +68,10 @@ body {
 
 }
 
+.whiteText{
+  color: #FFFFFF;
+}
+
 .redtext{
   color: #ff0000;
 }
@@ -190,7 +194,7 @@ and (min-device-width: 600px)
  }
 
  #divInicio {
-    background-image: url('pig.jpg'); 
+    background-image: url('vegetable_art-wallpaper-1280x800.jpg'); 
     background-size: cover; 
  }
 
